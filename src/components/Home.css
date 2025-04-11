@@ -1,0 +1,237 @@
+.home {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fef5f0;
+    padding: 50px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+  }
+  .hero-text {
+    max-width: 500px;
+  }
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  .hero button {
+    padding: 10px 20px;
+    background: #d35400;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .hero img {
+    max-width: 300px;
+  }
+  
+  /* Best Sellers */
+  .best-sellers {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .product-card {
+    background: #fff7f0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+  }
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Sales Banner */
+  .sales-banner {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .sales-banner img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Categories */
+  .categories {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .category-icons {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  /* Delivery Section */
+  .delivery-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #e8f9f1;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .delivery-info img {
+    width: 100px;
+    border-radius: 8px;
+  }
+  
+  /* About Section */
+  .about-us {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  .about-card {
+    background: #f0f9ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Mood Selector */
+  .mood-selector {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .moods {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+  }
+  
+  /* New Menu */
+  .new-menu {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .new-dishes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .dish {
+    background: #fff0f5;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+  }
+  .dish img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Reviews */
+  .reviews {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .review-cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .review {
+    background: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+  
+  /* Instagram Section */
+  .instagram {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .insta-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+  }
+  .post {
+    width: 100px;
+    height: 100px;
+    background: #eee;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Newsletter */
+  .newsletter {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .newsletter input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  .newsletter button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #d35400;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Portfolio Section */
+  .portfolio {
+    text-align: center;
+    margin: 50px 0;
+    background: #f0fff0;
+    padding: 30px;
+    border-radius: 12px;
+  }
+  .portfolio img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .portfolio a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .portfolio a:hover {
+    text-decoration: underline;
+  }
+  
